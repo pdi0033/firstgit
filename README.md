@@ -20,7 +20,15 @@
 ` a = 10`
    
 2. 여러 줄 소스 코드
-
+```python
+print("철수가 산 사과와 배의 총금액을 구합니다.")
+apple_price = 5000
+pear_price = 10000
+apple_count = int(input("사과의 개수: "))
+pear_count = int(input("배의 개수: "))
+total_price = apple_count * apple_price + pear_count * pear_price
+print(f"총 금액은 {total_price}원 입니다. \n")
+```
 
 <https://docs.google.com/document/d/1zuG6MHADZaM77sdQ1jY1T76n2j78PSYa9JbIucPU_Tg/edit?usp=sharing>
 
